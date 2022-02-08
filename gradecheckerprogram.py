@@ -1,6 +1,7 @@
-from numpy import average
-
-
+print("Getting Inputs from Student")
+print("--------------------------------------")
+print("           Enter details                ")
+print("--------------------------------------")
 studentName=input("Enter Student Name:")
 institute=input("Enter School/college Name:")
 city=input("Enter City:")
@@ -9,6 +10,10 @@ subject2=int(input("Enter Subject 2 mark: "))
 subject3=int(input("Enter Subject 3 mark: "))
 subject4=int(input("Enter Subject 4 mark: "))
 subject5=int(input("Enter Subject 5 mark: "))
+print("--------------------------------------")
+print("           Calculating               ")
+print("--------------------------------------")
+
 total=subject1+subject2+subject3+subject4+subject5
 avg=int(total/5)
 if avg>=91 and avg<=100:
